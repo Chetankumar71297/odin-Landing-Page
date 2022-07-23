@@ -66,6 +66,70 @@ button {
 
 } 
 
-img {
+.about-me img {
     max-width: 300px;
+}
+
+
+/* image section*/
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.image-section-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.images img {
+    width: 130px;
+    height: 130px;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 130px;
+    margin: 0 15px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+
+
+/* quote-section */
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #E5E7EB;
+    /*padding: 50px 135px;*/
+    margin: auto;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    /*text-align: start;*/
+       
+}
+
+.said-by {
+    display: flex;
+    font-weight: bold;
+    /*margin-left: 365px;*/
+    justify-content: flex-end;
+    
 }
